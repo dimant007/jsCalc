@@ -34,19 +34,6 @@ function num(n){
     document.form.t2.value = document.form.t2.value + n;
 }
 
-function fact(){
-    n = Number(document.form.t1.value)
-    if(errorchecking(n) == false){
-        return;
-    }
-
-    var answer = 1;
-    for(i = n;i >= 2; i--){
-        answer = answer*i;
-    }
-    document.form.t1.value = answer;
-}
-
 function operator(op){
     oper = op;
     num = document.form.t1.value;
