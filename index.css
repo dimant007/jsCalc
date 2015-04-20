@@ -1,0 +1,30 @@
+body {
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+}
+.operands {
+    color: #FFF;
+    font-size: 20px;
+    background-color: #403F3F;
+    width: 70px;
+    height: 70px;
+    padding: 0 0 0 0;
+    border: 1px solid #E5E4E3;
+}
+.numbers {
+    color: #FFF;
+    font-size: 20px;
+    background-color: #403F3F;
+    width: 95px;
+    height: 80px;
+    padding: 0 0 0 0;
+    border: 1px solid #E5E4E3;
+}
+#a, #b {
+    width: 295px;
+    height: 70px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 0 0 3px 0;
+}
