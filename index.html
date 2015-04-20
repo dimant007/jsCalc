@@ -4,37 +4,36 @@
     <meta charset="UTF-8">
     <title>Simple js calculator</title>
         <link rel="stylesheet" href="index.css">
-        <script type="text/javascript" src="//yandex.st/jslibs/loader.js"></script>
         <script type="text/javascript" src="index.js"></script>
 
 </head>
 <body>
 <div>
-    <form name="form">
-        <input id="a" name="t1" type="text"/>
-            <br>
-        <input id="b" name="t2" type="text"/>
-            <br>
-        <input class="operands" type="button" onclick="sum()" value="+"/>
-        <input class="operands" type="button" onclick="rest()" value="-"/>
-        <input class="operands" type="button" onclick="mult()" value="*"/>
-        <input class="operands" type="button" onclick="div()" value="/"/>
-            <br>
-        <input class="numbers" id="number1" type="button" onclick="num(1)" value="1"/>
-        <input class="numbers" id="number2" type="button" onclick="num(2)" value="2"/>
-        <input class="numbers" id="number3" type="button" onclick="num(3)" value="3"/>
-            <br>
-        <input class="numbers" id="number4" type="button" onclick="num(4)" value="4"/>
-        <input class="numbers" id="number5" type="button" onclick="num(5)" value="5"/>
-        <input class="numbers" id="number6" type="button" onclick="num(6)" value="6"/>
-            <br>
-        <input class="numbers" id="number7" type="button" onclick="num(7)" value="7"/>
-        <input class="numbers" id="number8" type="button" onclick="num(8)" value="8"/>
-        <input class="numbers" id="number9" type="button" onclick="num(9)" value="9"/>
-            <br>
-        <input class="numbers" type="button" onclick="" value="..."/>
-        <input class="numbers" id="number0" type="button" onclick="num(0)" value="0"/>
-        <input class="numbers" type="button" onclick="" value="..."/>
+    <form name = form>
+        <input id="a" type="text" name = "display" value=" ">
+        <br>
+        <input class="operands" type = button value = " * " name = bmultiply onclick = "acting('*')">
+        <input class="operands" type = button value = " - " name = bminus onclick = "acting('-')">
+        <input class="operands" type = button value = " / " name = bdivide onclick = "acting('/')">
+        <input class="operands" type = button value = " + " name = bplus onclick = "acting('+')">
+        <input class="operands" type = button value = " = " name = equals onclick = "equal()">
+        <br>
+        <input class="numbers" type = button value = " 1 " name = b1 onclick = "number(1)">
+        <input class="numbers" type = button value = " 2 " name = b2 onclick = "number(2)">
+        <input class="numbers" type = button value = " 3 " name = b3 onclick = "number(3)">
+        <br>
+        <input class="numbers" type = button value = " 4 " name = b4 onclick = "number(4)">
+        <input class="numbers" type = button value = " 5 " name = b5 onclick = "number(5)">
+        <input class="numbers" type = button value = " 6 " name = b6 onclick = "number(6)">
+        <br>
+        <input class="numbers" type = button value = " 7 " name = b7 onclick = "number(7)">
+        <input class="numbers" type = button value = " 8 " name = b8 onclick = "number(8)">
+        <input class="numbers" type = button value = " 9 " name = b9 onclick = "number(9)">
+        <br>
+        <input class="numbers" type = button value = "." name = bdot onclick = "number('.')" >
+        <input class="numbers" type ="button" value = "0" name = b0 onclick = "number(0)">
+        <input class="numbers" type="button" onclick=" " value="...">
+
     </form>
 </div>
 </body>

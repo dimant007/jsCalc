@@ -3,13 +3,18 @@ body {
     font-family: Arial, sans-serif;
     font-size: 19px;
 }
+div {
+    border: 1px solid black;
+    padding: 3px 2px 4px 4px;
+    width: 298px;
+}
 .operands {
     color: #FFF;
     font-size: 20px;
     background-color: #403F3F;
-    width: 70px;
-    height: 70px;
-    padding: 0 0 0 0;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 2px;
     border: 1px solid #E5E4E3;
 }
 .numbers {
@@ -17,14 +22,13 @@ body {
     font-size: 20px;
     background-color: #403F3F;
     width: 95px;
-    height: 80px;
-    padding: 0 0 0 0;
+    height: 50px;
     border: 1px solid #E5E4E3;
 }
-#a, #b {
+#a {
     width: 295px;
     height: 70px;
     background-color: lightgrey;
     border: 1px solid black;
-    margin: 0 0 3px 0;
+    margin-bottom: 3px;
 }
