@@ -5,13 +5,15 @@ function number(n){
     document.form.display.value = document.form.display.value + n;
 }
 
+var num, oper;
+
 function acting(act){
     oper = act;
     num = document.form.display.value;
     document.form.display.value = "";
 }
 function equal(){
-    calculating(eval(num), eval(document.form.display.value), oper);
+    calculating(parseFloat(num), parseFloat(document.form.display.value), oper);
 }
 function calculating(n1, n2, act){
     if(act == "+"){
@@ -27,4 +29,6 @@ function calculating(n1, n2, act){
         document.form.display.value = n1 / n2;
     }
 }
+
+
 
